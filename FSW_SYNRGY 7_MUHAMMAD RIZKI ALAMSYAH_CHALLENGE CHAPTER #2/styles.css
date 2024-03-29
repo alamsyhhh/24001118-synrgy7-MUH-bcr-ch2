@@ -3,6 +3,7 @@
 --------------------------------------------------------------*/
 html {
   overflow-x: hidden !important;
+  padding-right: 0px !important;
 }
 
 body {
@@ -851,10 +852,6 @@ body {
     margin-left: 0px;
   }
 
-  /* .navbar .offcanvas-title {
-    padding-bottom: 0px;
-  } */
-
   .navbar .fluid {
     margin-left: 45px;
   }
@@ -950,6 +947,10 @@ body {
 }
 
 @media (max-width: 521px) {
+  .offcanvas {
+    max-width: 60%;
+  }
+
   .navbar .fluid {
     margin-left: 0px;
   }
@@ -1094,6 +1095,9 @@ body {
 }
 
 @media (max-width: 355px) {
+  .offcanvas {
+    max-width: 100%;
+  }
   #hero {
     height: 553px;
   }
